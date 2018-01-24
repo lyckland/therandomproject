@@ -3,7 +3,7 @@
  */
 body {
   font-family: garamond, serif;
-  font-size: 1em;
+  font-size: 50px;
   line-height: 5px;
   color: #FFFFFF;
   background: #000; }
@@ -27,22 +27,20 @@ color: #ffff00;
 p.normal {
     font-family: arial;
     font-style: normal;
-    font-size: 3.5em;
+    font-size: 50px;
     padding-top: 50px;
     line-height:-150%;
 }
 
 p.italic {
     font-style: italic;
-    font-size: .7em;
+    font-size: 14px;
     line-height:1%;
 
 }
 
 p.rule {
-    top-padding: 50%;
-    line-height:-1000px;
-
+    font-size: 16px;
 }
 
 /* 
