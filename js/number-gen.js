@@ -7,14 +7,14 @@ function GenBPM()
 
 function GenIns1()
 {
-    var myarray= new Array("voice","guitar","acoustic guitar", "bass", "organ", "piano", "detuned anything","-","???");
+    var myarray= new Array("voice","guitar","acoustic guitar", "bass", "organ", "piano", "detuned anything","voice","guitar","acoustic guitar", "bass", "organ", "piano", "detuned anything", "-", "???");
     var random = myarray[Math.floor(Math.random() * myarray.length)];
    document.getElementById("ins1message").innerHTML=random;
 }
 
 function GenIns2()
 {
-    var myarray= new Array("drum machine","synthesizer", "field recording", "software", "sampler","???");
+    var myarray= new Array("drum machine","synthesizer", "field recording", "software", "sampler", "drum machine","synthesizer", "field recording", "software", "sampler", "???");
     var random = myarray[Math.floor(Math.random() * myarray.length)];
    document.getElementById("ins2message").innerHTML=random;
 }
