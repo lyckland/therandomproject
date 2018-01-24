@@ -1,0 +1,76 @@
+/* 
+ * general
+ */
+body {
+  font-family: garamond, serif;
+  font-size: 1em;
+  line-height: 5px;
+  color: #FFFFFF;
+  background: #000; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+
+a:link {
+color: #ff0000;
+}
+
+a:visited {
+color: #ff0000;
+}
+
+a:hover {
+color: #ffff00;
+}
+
+p.normal {
+    font-family: arial;
+    font-style: normal;
+    font-size: 3.5em;
+    padding-top: 50px;
+    line-height:-150%;
+}
+
+p.italic {
+    font-style: italic;
+    font-size: .7em;
+    line-height:1%;
+
+}
+
+p.rule {
+    top-padding: 50%;
+    line-height:-1000px;
+
+}
+
+/* 
+ * layout
+ */
+
+div#BPM {
+  width: 600px;
+  height: 100px;
+  padding-left: 50px;
+  }
+
+div#Ins1 {
+  width: 600px;
+  height: 100px;
+  padding-left: 50px;
+	}
+
+div#Ins2 {
+  width: 600px;
+  height: 100px;
+  padding-left: 50px;
+	}
+
+div#X {
+  width: 600px;
+  height: 100px;
+  padding-left: 50px;
+	}
+
+}
