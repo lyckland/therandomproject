@@ -8,22 +8,6 @@ body {
   color: #FFFFFF;
   background: #000; }
 
-a {
-  text-decoration: none;
-  outline: none; }
-
-a:link {
-color: #ff0000;
-}
-
-a:visited {
-color: #ff0000;
-}
-
-a:hover {
-color: #ffff00;
-}
-
 p.normal {
     font-family: arial;
     font-style: normal;
@@ -34,7 +18,7 @@ p.normal {
 p.italic {
     font-style: italic;
     font-size: 14px;
-    line-height:1%;
+    padding-top: 5px;
 
 }
 
@@ -47,27 +31,35 @@ p.rule {
  */
 
 div#BPM {
-  width: 600px;
+  width: 400px;
   height: 100px;
-  padding-left: 50px;
+  border-bottom: 1px solid white;
+  margin-left: 50px;
+
   }
 
 div#Ins1 {
-  width: 600px;
+  width: 400px;
   height: 100px;
-  padding-left: 50px;
+  border-bottom: 1px solid white;
+  margin-left: 50px;
+
 	}
 
 div#Ins2 {
-  width: 600px;
+  width: 400px;
   height: 100px;
-  padding-left: 50px;
+  border-bottom: 1px solid white;
+  margin-left: 50px;
+
 	}
 
 div#X {
-  width: 600px;
+  width: 400px;
   height: 100px;
-  padding-left: 50px;
+  border-bottom: 1px solid white;
+  margin-left: 50px;
+
 	}
 
 }
