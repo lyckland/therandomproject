@@ -7,7 +7,7 @@ function GenBPM()
 
 function GenIns1()
 {
-    var myarray= new Array("voice","guitar","acoustic guitar","detuned anything","-","???");
+    var myarray= new Array("voice","guitar","acoustic guitar", "bass", "detuned anything","-","???");
     var random = myarray[Math.floor(Math.random() * myarray.length)];
    document.getElementById("ins1message").innerHTML=random;
 }
