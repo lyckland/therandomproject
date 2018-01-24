@@ -21,7 +21,7 @@ function GenIns2()
 
 function GenFeel()
 {
-    var myarray= new Array("cold","dark","ugly");
+    var myarray= new Array("fear", "grief", "love", "rage", "cold", "dark", "ugly", "warm", "bright", "beautiful", "delicate", "harsh", "fleeting", "life", "death");
     var random = myarray[Math.floor(Math.random() * myarray.length)];
    document.getElementById("feelmessage").innerHTML=random;
 }
